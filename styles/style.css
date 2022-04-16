@@ -1,0 +1,169 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    --boxheight:300px;
+}
+
+:root{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.114),rgb(0, 0, 0)),url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position:  top center;
+    background-size: cover;
+/* background-color: rgba(92, 20, 20, 0.295); */
+}
+body{
+
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.div{
+
+border: 2px solid white;
+width: 70vw;
+max-width: 600px;
+padding: 10px;
+border-radius: 7px;
+background-color: rgba(0, 0, 0, 0.753);
+font-size: calc(0.5rem + 3vw);
+}
+
+.div p{
+    font-size: 1em;
+color: aliceblue;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1em;
+    font-weight: bold;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.div input{
+
+    font-size: 0.9em;
+  font-family: 'Courier New', Courier, monospace, Courier, monospace;
+    width: 100%;
+    min-height: 1.5em;
+    margin: 5px 0;
+}
+
+.div input:focus{
+
+    background-color: rgb(255, 228, 228);
+}
+
+
+.btndiv{
+
+margin: 10px 0;
+display: flex;
+/* background-color: red; */
+}
+
+#finaldiv .btndiv{
+width: fit-content;
+margin: 10px auto;
+    /* background-color: blue; */
+}
+
+#congrat button{
+    font-size: 0.5em;
+    font-weight: bold;
+    padding: 0.5em;
+margin:  auto;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#finaldiv button{
+    font-size: 1em;
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    border-radius: 50%;
+    border-style: none;
+/* background-image: url("../images/whatsapp.jpeg");
+background-size: cover;
+background-position: center center; */
+}
+
+
+
+#finaldiv p{
+
+    margin-top: 0px;
+}
+#finaldiv #span{
+
+    font-size: 0.5em;
+    text-decoration:underline ;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: rgb(255, 176, 29);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  
+}
+#errormsg{
+
+    font-size: .7em;
+    color: red;
+    margin: 0;
+}
+
+
+#left::before{
+content: ": ";
+
+}
+
+#remain{
+
+    margin: 0;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+#finaldiv #sharetxt{
+    margin-top: 10px;
+    display: block;
+    font-size:0.5em;
+}
+
+
+
+#linkdiv{
+
+    background-color: rgba(255, 102, 0, 0.212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 0.6em;
+  padding: 0.5em 0;
+}
+
+
+#linkdiv p
+{
+
+    margin: 0;
+}
+
+
+
+.hide{
+    display: none;
+}
+
