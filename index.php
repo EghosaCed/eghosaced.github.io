@@ -27,7 +27,7 @@ session_start();
 
 <?php
 $error = 'error message';
-$error2 = 'error message 23';
+$error2 = 'error message 234';
 $name = '';
 $email = ''; 
 

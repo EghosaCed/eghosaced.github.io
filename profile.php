@@ -18,7 +18,7 @@ if(mysqli_num_rows($result)>0){
     $res = mysqli_fetch_assoc($result);
  
     $name = $res['name'];
-    $donetask = $res['donetask'];
+    $donetask = $res['donetggask'];
     $numofaffiliate = $res['numofaffiliate'];
     $affiliateid =  $res['affiliateid'];
   
