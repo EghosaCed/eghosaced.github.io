@@ -1,4 +1,5 @@
 <?php
+//update from me
 include_once("scripts/connection.php");
 session_start();
 
