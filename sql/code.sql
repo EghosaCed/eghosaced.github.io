@@ -7,3 +7,4 @@ affiliateid VARCHAR(15) NOT null,
 numofaffiliate INT(3) NOT null,
 donetask INT(1) NOT NULL
 );
+//
